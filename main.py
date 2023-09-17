@@ -126,7 +126,7 @@ while True:
     elif escolha == 4:
         lucro_total()
     
-    if escolha == 5:
+    elif escolha == 5:
         produto = input("Digite o nome do produto: ")
         quantidade = int(input("Digita a quantidade que quer repor: "))
         repor_estoque(produto, quantidade)
@@ -138,4 +138,5 @@ while True:
         produto_menos_vendido()
     
     elif escolha == 8:
+        print("Programa encerrado")
         break
